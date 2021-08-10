@@ -10,3 +10,13 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+.darkBackground {
+  background-color: black;
+  color: greenyellow;
+}
+
+.highlight {
+  background-color:yellow;
+  border:1px solid black;
+}
