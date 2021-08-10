@@ -1,6 +1,10 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
+  $("#clickShow").click(function() {
+    $("#walrusShowing").fadeIn();
+    $("#walrusHidden").fadeOut();
+  });
+  $("#clickHide").click(function() {
+    $("#walrusHidden").fadeIn();
+    $("#walrusShowing").fadeOut();
   });
 });
